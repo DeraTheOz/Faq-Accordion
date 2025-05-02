@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'Work Sans';
-    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf) format('truetype');
-    font-weight: 100 900;
+    src: url(./assets/fonts/WorkSans-VariableFont_wght.ttf);
+    font-weight: 400 600 700 800;
     font-style: normal;
 }
 
@@ -51,4 +51,8 @@ svg {
     text-rendering: optimizeLegibility;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+}
+
+p.open {
+    @apply text-purple-500;
 }
