@@ -10,7 +10,7 @@ export default {
                 purple950: 'hsl(292, 42%, 14%)'
             },
             fontFamily: {
-                worksans: ['Work Sans', 'sans-serif']
+                worksans: ["'Work Sans'", 'sans-serif']
             },
             backgroundImage: {
                 desktop: "url('/assets/images/background-pattern-desktop.svg')",
@@ -28,12 +28,10 @@ export default {
                         paddingTop: '1rem',
                         paddingBottom: '1rem'
                     }
-                },
-                
+                }
             },
             animation: {
-                expand: 'expand .3s ease-out forwards',
-                
+                expand: 'expand .3s ease-out forwards'
             }
         }
     },
